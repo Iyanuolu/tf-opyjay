@@ -8,6 +8,6 @@ resource "aws_instance" "my_server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "opyjay-tf-server"
+    Name =  "opyjay-tf-server"
   }
 }
